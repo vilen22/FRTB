@@ -7,8 +7,9 @@ when the shape of the underlying distribution is can be accurately modeled. This
 the modeler to a statistical dilemma - use a nonparametric estimator and pay a high cost
 of having large confidence intervals or take some model risk and work with significantly
 tighter confidence intervals provided by the fitted model. 
+
 The non-parametric estimators (such as sample VaR) are commonly used by the practitioners.  
 We will present robust semi-parametric VaR and ES estimators that outperform the standard ones. These estimators will lead to more stable market risk capital calculations. 
 The main conclusion is that even a slight knowledge about the underlying model can
 make a significant improvement over the corresponding baseline non-parametric estimator
-of a risk measure. 
+of a risk measure.
