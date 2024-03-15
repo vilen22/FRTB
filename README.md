@@ -10,11 +10,15 @@ Value at risk (VaR) and expected shortfall (ES) risk measures lie at the heart o
 Banks that are subject to the market risk rule and/or Basel accords need to estimate and report these risk measures on a daily basis. 
 There are a number of parametric, semi-parametric, and non-parametric estimators that can be utilized for VaR and ES estimation. 
 
-In this project we will demonstrate that the nonparametric estimators of VaR and ES have large
+The nonparametric estimators of VaR and ES have large
 asymptotic variance relative to the optimal parametric estimators that can be constructed
 when the shape of the underlying distribution can be accurately modeled. This brings
 the modeler to a statistical dilemma - use a nonparametric estimator and pay a high cost
 of having large confidence intervals or take some model risk and work with significantly
 tighter confidence intervals provided by the fitted model. 
+The non-parametric estimators (such as sample VaR) are commonly used by the practitioners. 
+We will present robust semi-parametric VaR and ES estimators that outperform the standard ones. 
+These estimators will lead to more stable market risk capital calculations.
 
-The non-parametric estimators (such as sample VaR) are commonly used by the practitioners. We will present robust semi-parametric VaR and ES estimators that outperform the standard ones. These estimators will lead to more stable market risk capital calculations.
+In the finalm part of this project we will perform ES backtesting using traffic light test
+and Acerbi-Szekely tests (conditional and unconditional versions).
