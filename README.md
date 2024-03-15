@@ -20,5 +20,5 @@ The non-parametric estimators (such as sample VaR) are commonly used by the prac
 We will present robust semi-parametric VaR and ES estimators that outperform the standard ones. 
 These estimators will lead to more stable market risk capital calculations.
 
-In the finalm part of this project we will perform ES backtesting using traffic light test
+In the final part of this project we will perform ES backtesting using traffic light test
 and Acerbi-Szekely tests (conditional and unconditional versions).
